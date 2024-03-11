@@ -1,14 +1,14 @@
-import { Component } from "@angular/core";
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive, RouterOutlet, Router } from '@angular/router';
 
 @Component({
-    selector: 'app-container',
-    standalone: true,
-    imports: [RouterOutlet],
-    templateUrl: './Login/login.html',
-    styleUrl: './login.component.css'
+  selector: 'app-login',
+  standalone: true,
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.css'
 })
-
-export class LoginComponent{
-    title = 'login';
+export class LoginComponent {
+  
 }
