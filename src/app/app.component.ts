@@ -8,7 +8,6 @@ import { RouterLink, RouterLinkActive, RouterOutlet, Router } from '@angular/rou
   imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './index.html',
   styleUrl: './app.component.css'
-  
 })
 
 export class AppComponent {
