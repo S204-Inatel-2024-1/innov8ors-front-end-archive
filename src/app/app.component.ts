@@ -9,7 +9,14 @@ import { MatExpansionModule } from '@angular/material/expansion';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterModule, MatAccordion, MatExpansionPanel, MatInputModule, MatFormFieldModule, MatExpansionModule],
+  imports: [
+    CommonModule, 
+    RouterModule, 
+    MatAccordion, 
+    MatExpansionPanel, 
+    MatInputModule, 
+    MatFormFieldModule, 
+    MatExpansionModule],
   templateUrl: './index.html',
   styleUrl: './app.component.css'
 })

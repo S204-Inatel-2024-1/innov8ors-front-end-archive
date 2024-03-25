@@ -1,10 +1,12 @@
-<head>
-    <title>Login</title>
-</head>
-<h2>Nome de usuário</h2>
-<input type="text" name="nome" size="30" />
-<h2>Senha</h2>
-<input type="text" name="nome" size="30" />
+<div class="auth-style">
+<mat-form-field>
+    <mat-label>Nome de usuario</mat-label>
+    <input matInput [(ngModel)]="textoUsuario">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Senha</mat-label>
+    <input matInput>
+  </mat-form-field>
 <router-outlet>
-<a class="button" routerLink="/student">Submeter</a>
+<button mat-button color="primary" (click)="verificarUser()">Submeter</button>
 </router-outlet>
