@@ -5,6 +5,8 @@ import { MatAccordion, MatExpansionPanel } from '@angular/material/expansion';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { AuthComponent } from './auth/auth.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-root',
@@ -12,15 +14,17 @@ import { MatExpansionModule } from '@angular/material/expansion';
   imports: [
     CommonModule, 
     RouterModule, 
+    AuthComponent,
     MatAccordion, 
     MatExpansionPanel, 
     MatInputModule, 
     MatFormFieldModule, 
-    MatExpansionModule],
+    MatExpansionModule,
+    MatToolbarModule],
   templateUrl: './index.html',
   styleUrl: './app.component.css'
 })
 
 export class AppComponent {
-
+  
 }
