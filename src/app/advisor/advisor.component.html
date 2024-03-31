@@ -5,14 +5,44 @@
                        (closed)="panelOpenState = false">
     <mat-expansion-panel-header>
       <mat-panel-title>
-          Projeto 1
+          Titulo do Projeto 1
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-  <p>ID</p>
-  <p>Status</p>
-  <p>Membros</p>
-  <p>Entregas e prazos</p>
+    <p>ID</p>
+    <p>Status</p>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            Membros
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+        
+      <ul>
+        <li>Nome Membro</li>
+        <li>Nome Membro</li>
+        <li>Nome Membro</li>
+        <li>Nome Membro</li>
+      </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Entregas e prazos
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <ol>
+        <li>Conteudo - Data</li>
+        <li>Conteudo - Data</li>
+        <li>Conteudo - Data</li>
+        <li>Conteudo - Data</li>
+      </ol>
+    </mat-expansion-panel>
 
   </mat-expansion-panel>
 </mat-accordion>
