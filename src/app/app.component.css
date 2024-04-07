@@ -1,8 +1,17 @@
-mat-button{
-    padding: 3px;
-    background-color: blue;
-    color: white;
-    border-radius: 8px;
+button{
+    border-radius: 15px;
+}
+
+.but-row{
+    display: flex;
     margin: auto;
-    cursor: pointer;
+    gap: 10px;
+}
+
+.mat-toolbar.mat-custom{
+    background: 
+    linear-gradient(
+        to right,
+        green, 
+        blue);
 }

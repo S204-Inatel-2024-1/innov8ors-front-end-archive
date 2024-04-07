@@ -4,3 +4,6 @@
     margin-top: 20px;
     align-items: center;
   }
+.invalid-pass{
+  color:red;
+}

@@ -9,5 +9,5 @@ import { MatAccordion, MatExpansionModule } from '@angular/material/expansion';
   styleUrl: './student.component.css'
 })
 export class StudentComponent {
-
+  panelOpenState: boolean = false;
 }

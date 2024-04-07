@@ -8,5 +8,8 @@
     <input matInput>
   </mat-form-field>
 <router-outlet>
-<button mat-button color="primary" (click)="verificarUser()">Submeter</button>
+<button mat-raised-button color="primary" (click)="verificarUser()">Submeter</button>
 </router-outlet>
+<p></p>
+<p class="invalid-pass" *ngIf="attempt">Usuário ou senha inválidos</p>
+</div>

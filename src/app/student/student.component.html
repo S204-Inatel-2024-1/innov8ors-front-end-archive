@@ -1,14 +1,47 @@
-<h1>Dados do Projeto</h1>
-<p>ID</p>
-<p>Titulo</p>
-<p>Orientador</p>
-<p>Status</p>
-<h1>Membros</h1>
-<p>nome membro</p>
-<p>nome membro</p>
-<p>nome membro</p>
-<p>nome membro</p>
-<h1>Proximas entregas e prazos</h1>
-<p>Conteudo - Data</p>
-<p>Conteudo - Data</p>
-<p>Conteudo - Data</p>
+<h1>Olá, Giovani!</h1>
+
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+         Dados do Projeto
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+  <p>ID</p>
+  <p>Titulo</p>
+  <p>Orientador</p>
+  <p>Status</p>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+        Membros
+     </mat-panel-title>
+   </mat-expansion-panel-header>
+
+   <p>Membro 1</p>
+   <p>Membro 2</p>
+   <p>Membro 3</p>
+   <p>Membro 4</p>
+
+  </mat-expansion-panel>
+
+  <mat-expansion-panel  (opened)="panelOpenState = true"
+                        (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+    <mat-panel-title>
+    Entregas e prazos
+    </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <p>Entrega 1</p>
+    <p>Entrega 2</p>
+    <p>Entrega 3</p>
+    <p>Entrega 4</p>
+
+</mat-expansion-panel>
+
+
+</mat-accordion>

@@ -6,7 +6,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { AuthComponent } from './auth/auth.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatInputModule, 
     MatFormFieldModule, 
     MatExpansionModule,
-    MatToolbarModule],
+    MatToolbarModule,
+    MatButtonModule],
   templateUrl: './index.html',
   styleUrl: './app.component.css'
 })
