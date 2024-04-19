@@ -30,12 +30,16 @@ export class AuthComponent {
 
   verificarUser() {
     const user = 'Giovani';
-    const admin = 'Lucas';
+    const adv = 'Lucas';
+    const adm = 'Felipe';
     
     if (this.textoUsuario === user) {
       this.router.navigate(['/student']);
-    } else if(this.textoUsuario == admin) {
+    } else if(this.textoUsuario == adv) {
       this.router.navigate(['/advisor']);
+    }
+    else if(this.textoUsuario == adm){
+      this.router.navigate(['/adm']);
     }else{
       this.attempt = true;
     }

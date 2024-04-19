@@ -1,0 +1,5 @@
+.but-row{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
