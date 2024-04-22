@@ -1,9 +1,13 @@
 .auth-style {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
     align-items: center;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
   }
 .invalid-pass{
   color:red;
+  font-size: 17px;
 }

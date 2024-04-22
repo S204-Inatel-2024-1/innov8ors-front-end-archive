@@ -1,6 +1,22 @@
-h1{
-    padding: 1%;
+#nome{
+    padding: 25px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 30px;
+	margin: auto;
+	text-align: left;
 }
-h3{
-    padding: 1%;
+#dados_projeto, #membros, #entregas{
+    padding: 12px 30px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 15px;
+	margin: auto;
+	text-align: left;
 }

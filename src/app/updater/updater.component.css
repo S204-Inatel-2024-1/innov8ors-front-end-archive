@@ -3,4 +3,25 @@
     flex-direction: column;
     margin-top: 20px;
     align-items: center;
-  }
+    height: 460px;
+    margin: auto;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+}
+#titulo{
+    padding: 20px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 30px;
+    margin: auto;
+    text-align: left;
+}
+#titulo p {
+  font-size: 20px;
+  margin-top: 8px;
+}

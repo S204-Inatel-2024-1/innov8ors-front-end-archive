@@ -1,5 +1,6 @@
 <div class="auth-style">
-<mat-form-field>
+<p></p>
+  <mat-form-field>
     <mat-label>Nome</mat-label>
     <input matInput [(ngModel)]="textoUsuario">
   </mat-form-field>
@@ -8,7 +9,8 @@
     <input matInput>
   </mat-form-field>
 <router-outlet>
-<button mat-raised-button color="primary" (click)="verificarUser()">Submeter</button>
+<button mat-raised-button (click)="verificarUser()">Submeter</button>
+<p></p>
 </router-outlet>
 <p></p>
 <p class="invalid-pass" *ngIf="attempt">Usuário ou senha inválidos</p>

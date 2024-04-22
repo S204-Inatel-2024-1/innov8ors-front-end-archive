@@ -9,9 +9,8 @@ button{
 }
 
 .mat-toolbar.mat-custom{
-    background: 
-    linear-gradient(
-        to right,
-        green, 
-        blue);
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
 }

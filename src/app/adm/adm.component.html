@@ -1,37 +1,40 @@
-<h1>Ola, admin!</h1>
-<h2>Opções</h2>
-<div class="but-row">
-    <button mat-raised-button color="primary">Criar projeto</button>
-    <button mat-raised-button color="primary">Importar planilha</button>
-</div>
-<p></p>
-<h2>Projetos cadastrados</h2>
-<mat-accordion>
-    <mat-expansion-panel (opened)="panelOpenState = true"
+<body>
+  <div id="adm">Ola, admin!
+  <div class="but-row">
+    <button mat-raised-button>Criar projeto</button>
+    <button mat-raised-button>Importar planilha</button>
+  </div>
+  </div>
+  <div id="projetos">Projetos cadastrados</div>
+  <mat-accordion>
+    <div id="dados">
+      <mat-expansion-panel (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-            0 - Projeto 01
-        </mat-panel-title>
-      </mat-expansion-panel-header>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            ID - Titulo Projeto
+          </mat-panel-title>
+        </mat-expansion-panel-header>
 
       <mat-expansion-panel (opened)="panelOpenState = true"
       (closed)="panelOpenState = false">
         <mat-expansion-panel-header>
-        <mat-panel-title>
-        Membros
-        </mat-panel-title>
+          <mat-panel-title>
+            Membros
+          </mat-panel-title>
         </mat-expansion-panel-header>
         <ul>
-        <li>Nome Membro</li>
-        <li>Nome Membro</li>
-        <li>Nome Membro</li>
-        <li>Nome Membro</li>
+          <li>Nome Membro</li>
+          <li>Nome Membro</li>
+          <li>Nome Membro</li>
+          <li>Nome Membro</li>
         </ul>
-    </mat-expansion-panel>
-    <p></p>
-    <p>Orientador:</p>
-    <p>Status:</p>
-    <button mat-button color="primary" (click)="updateData()">Atualizar dados</button>
-    </mat-expansion-panel>
-    </mat-accordion>
+      </mat-expansion-panel>
+      <p></p>
+      <p>Orientador:</p>
+      <p>Status:</p>
+      <button mat-raised-button color="primary" (click)="updateData()">Atualizar dados</button>
+      </mat-expansion-panel>
+    </div>
+  </mat-accordion>
+</body>

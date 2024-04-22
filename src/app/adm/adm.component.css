@@ -1,5 +1,28 @@
 .but-row{
     display: flex;
     margin: auto;
-    gap: 10px;
+    gap: 70px;
+    margin-top: 40px;
+}
+#adm, #projetos{
+    padding: 25px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 30px;
+	margin: auto;
+	text-align: left;
+}
+#dados{
+    padding: 25px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 15px;
+	margin: auto;
+	text-align: left;
 }
