@@ -6,6 +6,8 @@
       to right,
       #5f98ee,
       #20EB9A);
+      background-size: cover;
+      height: 100%;
   }
 .invalid-pass{
   color:red;

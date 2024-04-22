@@ -25,4 +25,9 @@
     font-size: 15px;
 	margin: auto;
 	text-align: left;
+  height: 100%;
+}
+.mat-fetincolor{
+  background-color: #5f98ee;
+  color: #ffffff;
 }

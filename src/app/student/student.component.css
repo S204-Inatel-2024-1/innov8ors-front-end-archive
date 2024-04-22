@@ -1,3 +1,9 @@
+body{
+  background: linear-gradient(
+    to right,
+    #5f98ee,
+    #20EB9A);
+}
 #nome{
     padding: 25px;
     background: linear-gradient(
@@ -17,6 +23,6 @@
       #20EB9A);
     color: #ffffff;
     font-size: 15px;
-	margin: auto;
-	text-align: left;
+	  margin: auto;
+	  text-align: left;
 }
