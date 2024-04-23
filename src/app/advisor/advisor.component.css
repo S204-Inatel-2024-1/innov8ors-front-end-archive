@@ -1,0 +1,23 @@
+#titulo{
+    padding: 25px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 30px;
+	margin: auto;
+	text-align: left;
+}
+#projetos{
+    padding: 25px;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 15px;
+	margin: auto;
+	text-align: left;
+  height: 100%;
+}

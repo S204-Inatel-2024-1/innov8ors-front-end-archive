@@ -1,0 +1,26 @@
+.auth-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+      height: 100%;
+}
+#titulo{
+    padding: 1%;
+    background: linear-gradient(
+      to right,
+      #5f98ee,
+      #20EB9A);
+    color: #ffffff;
+    font-size: 30px;
+    margin: auto;
+    text-align: left;
+}
+#titulo p {
+  font-size: 15px;
+  margin-top: 8px;
+}

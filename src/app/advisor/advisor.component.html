@@ -1,0 +1,54 @@
+<body>
+  <div id="titulo">Projetos Orientados</div>
+
+<mat-accordion>
+  
+  <div id="projetos">
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+          Titulo do Projeto 1
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <p>ID</p>
+    <p>Status</p>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            Membros
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+        
+      <ul>
+        <li>Nome Membro</li>
+        <li>Nome Membro</li>
+        <li>Nome Membro</li>
+        <li>Nome Membro</li>
+      </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Entregas e prazos
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <ol>
+        <li>Conteudo - Data</li>
+        <li>Conteudo - Data</li>
+        <li>Conteudo - Data</li>
+        <li>Conteudo - Data</li>
+      </ol>
+    </mat-expansion-panel>
+
+  </mat-expansion-panel>
+  </div>
+
+</mat-accordion>
+</body>
