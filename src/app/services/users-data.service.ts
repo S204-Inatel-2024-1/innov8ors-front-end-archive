@@ -10,12 +10,10 @@ export class UsersDataService {
 
   constructor(private http: HttpClient) {}
 
-  tryLogin(): Observable<any> {
+  tryLogin(email: string, password: string): Observable<any> {
     return this.http.post<any>(this.urlBase, {
-      "name": "test1",
-      "email": "test1@gmail.com",
-      "password": "test1",
-      "role": "ADMIN"
+      "email": email,
+      "password": password
     })
   }
 }

@@ -13,16 +13,13 @@ export class AuthComponent {
   attempt: boolean = false;
   loading: boolean = false;
   repos: string[] = [];
-  credentials = {
-    email: '',
-    password: ''
-   };
-   errorMessage: string = '';
+
+  errorMessage: string = '';
   constructor(private router: Router, private userDataService: UsersDataService) {}
 
   verificarUser() {
     this.loading = true;
-    this.userDataService.tryLogin().subscribe(
+    this.userDataService.tryLogin(this.textoUsuario, this.senhaUsuario).subscribe(
       (response: any) =>{
         console.log('response received');
         this.repos = response;
